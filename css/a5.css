@@ -1,0 +1,95 @@
+/**
+ * Author: Thu Nguyen, 000832893
+ * Date:  2022
+ * Purpose: Placeholder for later
+ * Statement of Authorship: I, Thu Nguyen, 000832893 certify that this material is my
+ *  original work. No other person's work has been used without due acknowledgement.
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(93, 226, 151);
+}
+
+#signInDiv{ 
+    width: 400px;
+    text-align: center;
+    border: solid 2px rgb(209, 165, 83);
+    margin: 100px auto;
+   
+}
+
+#signInDiv > * {
+    padding: 10px;
+}
+
+#signInForm > * {
+    padding: 5px;
+    margin:  5px ;
+}
+
+#signUpForm > * {
+    padding: 5px;
+    margin:  5px ;
+}
+
+#signUpDiv{ 
+    width: 400px;
+    text-align: center;
+    border: solid 2px rgb(209, 165, 83);
+    margin: 100px auto 20px;
+   
+}
+
+#signInButton {
+    background-color: red;
+    font-size: 1.2em;
+}
+
+#registerButton {
+    background-color: rgb(90, 90, 202);
+    font-size: 1.2em;
+}
+
+#cancelButton {
+    background-color: rgb(90, 90, 202);
+    font-size: 1.2em;
+}
+
+div.hidden {
+    display: none;
+}
+
+#showRegisterForm {
+    text-decoration: underline;
+}
+
+#showRegisterForm:hover {
+    cursor: pointer;
+}
+
+#target {
+    text-align: center;
+    font-size: 1em;  
+}
+
+#target p{
+    margin:auto;
+    width:fit-content;
+}
+
+#stocks {
+    text-align: center;
+    font: 1em;
+    padding: 10px;
+}
+
+.stock{
+    border: solid 2px black;
+    border-radius: 1.5em;
+    width: 150px;
+    margin: 1em auto;
+}
